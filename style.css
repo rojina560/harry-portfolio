@@ -106,3 +106,148 @@ text-align: center;
     font-size: 20px;
     color: #474747;
 }
+/* what-i-do section  */
+.what-i-do{
+    margin-top: 130px ;
+}
+.skills-container{
+    display: flex;
+    gap: 24px;
+}
+.skill{
+    border-radius: 5px;
+    box-shadow: 0px 6px 50px rgba(0, 0, 0, 0.06);
+    padding: 30px;
+}
+.skill-title{
+    font-weight: 700px;
+    font-size: 20px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+.skill-description{
+
+}
+/* resume style  */
+.section-title{
+    margin-top: 130px;
+}
+.resume-content{
+    display: flex;
+    gap: 20px;
+}
+.resume-item{
+    margin: 30px 0;
+}
+.resume-title{
+    font-weight: 700px;
+    font-size: 25px;
+    color: #474747;
+    margin-bottom: 10px;
+
+}
+.resume-sub-title{
+    color: #757575;
+    font-weight: 600px;
+    font-size: 20px;
+    margin-bottom: 20px;
+
+}
+.resume-description{
+    color: #757575;
+}
+.resume-button{
+    margin-top: 50px;
+    text-align: center;
+}
+/* contact section  */
+.contact{
+    display: flex;
+    gap: 100px;
+    background: #fff8f3;
+    padding: 130px 200px;
+
+}
+.contact .section-title{
+    text-align: left;
+    
+    
+}
+.contact input[type="text"], input[type="email"], textarea{
+    margin-bottom: 24px;
+    border: 0;
+    width: 100%;
+    padding: 18px 30px;
+}
+input{
+    height: 64px;
+
+}
+.contact a{
+    text-decoration: none
+    ;
+    padding: 20px;
+}
+
+/* media query start here  */
+@media screen and (max-width:576px) {
+
+    .header{
+        background-image:none ;
+    }
+    .banner{
+        margin: 0 20px;
+    }
+    .banner img{
+        width: 100%;
+    }
+    
+    
+    .contact,.banner,.resume-content,.skills-container,.about-info-container{
+        flex-direction: column;
+        padding: 30px 80px;
+        align-items: center;
+        gap: 30px;
+        padding-left: 30px;
+        padding-right: 30px;
+        text-align: center;
+        
+    }
+    nav{
+        margin:20px;
+    }
+    nav ul{
+        flex-direction: column;
+        gap: 20px;
+        
+        
+    }
+    .nav-title{
+        display: flex;
+        align-items:start;
+    }
+       
+    .contact input[type="text"], input[type="email"], textarea{
+        
+        padding: 0 0 0 5px;
+    }
+
+    
+    .section-title{
+         display: flex;
+        justify-content: center; 
+        margin-top: 20px;
+    }
+
+      .about{
+        margin-top: 50px;
+        padding: 30px;
+      }  
+    }
+       
+
+    
+    
+    
+
+    
